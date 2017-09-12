@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="VeelParties">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/VeelParties.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/VeelParties.jar!/" />
+    </SOURCES>
+  </library>
+</component>

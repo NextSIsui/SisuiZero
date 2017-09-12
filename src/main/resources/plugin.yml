@@ -1,0 +1,12 @@
+name: SisuiZero
+version: @version@
+main: com.gmail.nextsisui.sisuizero.SisuiZero
+prefix: Sisui
+authors: [Sisui]
+description: ZeroServer's plugin made by Sisui
+website: http://5craft.blog.jp/
+commands:
+  duel:
+    description:  DuelMine no Command
+    usage:  /duel <mode>
+    default :  true
