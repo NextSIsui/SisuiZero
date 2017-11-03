@@ -11,7 +11,7 @@ public final class SisuiZero extends JavaPlugin {
         getCommand("CreateNation").setExecutor(new CreateNewNationCommand());
         getCommand("Declaration").setExecutor(new DeclarationOfWarCommand());
         getCommand("InvitePlayer").setExecutor(new PlayerInvitionCommand());
-        getCommand("ExpelPlayer").setExecutor(new PlayerExpultionCommand());
+        getCommand("ExpelPlayer").setExecutor(new PlayerExpulsionCommand());
         getCommand("RegisterNationPlayer").setExecutor(new RegisterNewNationPlayerCommand());
     }
 
