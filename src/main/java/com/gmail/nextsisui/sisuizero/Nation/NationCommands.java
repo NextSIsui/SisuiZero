@@ -83,6 +83,7 @@ public class NationCommands implements CommandExecutor{
                 break;
 
             case "kick":
+
                 break;
 
 
