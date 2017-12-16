@@ -6,22 +6,6 @@ authors: [Sisui]
 description: ZeroServer's plugin made by Sisui
 website: http://5craft.blog.jp/
 commands:
-  CreateNation:
-    description: Create a new nations
-    usage:  /<command> name tag
-
-  Declaration:
-    description: Declarate to other nations
-    usage: /<command> nation
-
-  InvitePlayer:
-    description: Invite a player into nation
-    usage: /<command> player
-
-  ExpelPlayer:
-    description: Expel a player from nation
-    usage: /<command> player
-
-  RegisterNationPlayer:
-    description: Create new NationPlayer
-    usage: /<command> player
+  Nation:
+    description: About nation system
+    usage: /<command> [タイプ]

@@ -1,18 +1,13 @@
 package com.gmail.nextsisui.sisuizero;
 
-import com.gmail.nextsisui.sisuizero.CommandExecutor.*;
+import com.gmail.nextsisui.sisuizero.Nation.NationCommands;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SisuiZero extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
-        getCommand("CreateNation").setExecutor(new CreateNewNationCommand());
-        getCommand("Declaration").setExecutor(new DeclarationOfWarCommand());
-        getCommand("InvitePlayer").setExecutor(new PlayerInvitionCommand());
-        getCommand("ExpelPlayer").setExecutor(new PlayerExpulsionCommand());
-        getCommand("RegisterNationPlayer").setExecutor(new RegisterNewNationPlayerCommand());
+        getCommand("nation").setExecutor(new NationCommands());
     }
 
     @Override
