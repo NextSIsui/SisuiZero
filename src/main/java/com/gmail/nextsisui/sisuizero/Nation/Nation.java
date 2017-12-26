@@ -2,6 +2,7 @@ package com.gmail.nextsisui.sisuizero.Nation;
 
 import org.bukkit.entity.Player;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Nation {
@@ -16,19 +17,19 @@ public class Nation {
     private Player president;
 
     //副国家長です
-    private Player vicePresident;
+    private Player vicePresident = null;
 
     //国民です。国家長と副国家長はここには含まれていません。
-    private List<Player> people;
+    private List<Player> people = new ArrayList<>();
 
     //同盟国家です。
-    private List<Nation> allies;
+    private List<Nation> allies = new ArrayList<>();
 
     /**
      * コンストラクタです。国家が作られたときに自動で呼ばれます。必ず国家名、タグ、国家長が必要になります。
      * @param name は国家名
      * @param tag は国家タグ
-     * @param president は大統領
+     * @param president は国家長
      */
     public Nation(String name, String tag, Player president){
         this.name = name;
